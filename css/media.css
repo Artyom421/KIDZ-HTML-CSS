@@ -1,0 +1,61 @@
+@media screen and (max-width:992px){
+    .nav-bar{
+       display: none;
+    }
+
+    nav .container .left .left-menu{
+        display: block;
+    }
+    nav .container .center>.image{
+        display: none;
+    }
+    nav .container .center>.logo{
+        display: block;
+    }
+    nav .container .right i{
+        display: block;
+    }
+    main section .filter-menu{
+        display: block;
+    }
+    main aside .select{
+        display: none;
+    }
+    main .none{
+        display: block;
+    }
+}
+@media screen and (max-width:768px){
+    header{
+        display: none;
+    }
+    body .border-image{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px){
+    footer .container-2 .icons{
+        justify-content: flex-start;
+    }
+    main section .filter{
+        justify-content: flex-start;
+    }
+    main section .right{
+        justify-content: flex-start;
+    }
+    main section .head{
+        margin-bottom: 15px;
+    }
+    main section .filter{
+        margin-bottom: 15px;
+    }
+    section .filter .colors{
+        left: 0;
+        top: 40px;
+    }
+    main .product-left-none{
+        display: block;
+    }
+}
+
